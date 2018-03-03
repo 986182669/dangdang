@@ -1,0 +1,1 @@
+package org.sunrise.dangdang.util;import java.util.Arrays;import java.util.UUID;public class UUIDUtil {    public static String createUUID(){         String[] uuid = (UUID.randomUUID().toString()).split("-");         return uuid[uuid.length - 1];    }}
